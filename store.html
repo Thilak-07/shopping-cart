@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>One Direction | Store</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="store.js" async></script>
+  </head>
+
+  <body>
+    <header class="header">
+      <nav class="nav main-nav">
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="store.html">STORE</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+        </ul>
+      </nav>
+      <h1 class="band-name band-name-large">ONE DIRECTION</h1>
+    </header>
+
+    <!-- MUSIC SECTION -->
+    <section class="section music-section">
+      <h2 class="sec-header">MUSIC</h2>
+      <div class="music-container">
+        <div class="playlist">
+          <div class="album-name">Album1</div>
+          <div>
+            <img src="assets/Counting Stars.jpeg" class="item-img" />
+          </div>
+          <div class="shop-details">
+            <span class="cost-tag">$15.00</span>
+            <button type="button" class="add-button">ADD TO CART</button>
+          </div>
+        </div>
+
+        <div class="playlist">
+          <div class="album-name">Album2</div>
+          <div class="playlist-img">
+            <img src="assets/Counting Stars.jpeg" class="item-img" />
+          </div>
+          <div class="shop-details">
+            <span class="cost-tag">$20.00</span>
+            <button type="button" class="add-button">ADD TO CART</button>
+          </div>
+        </div>
+
+        <div class="playlist">
+          <div class="album-name">Album3</div>
+          <div>
+            <img src="assets/Counting Stars.jpeg" class="item-img" />
+          </div>
+          <div class="shop-details">
+            <span class="cost-tag">$25.00</span>
+            <button type="button" class="add-button">ADD TO CART</button>
+          </div>
+        </div>
+
+        <div class="playlist">
+          <div class="album-name">Album4</div>
+          <div>
+            <img src="assets/Counting Stars.jpeg" class="item-img" />
+          </div>
+          <div class="shop-details">
+            <span class="cost-tag">$30.00</span>
+            <button type="button" class="add-button">ADD TO CART</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MERCH SECTION -->
+    <section class="section merch-section">
+      <h2 class="sec-header">MERCH</h2>
+      <div class="merch-container">
+        <div class="playlist">
+          <div class="album-name">Tshirt1</div>
+          <div><img src="assets/Layer1.png" class="item-img" /></div>
+          <div class="shop-details">
+            <span class="cost-tag">$100.00</span>
+            <button type="button" class="add-button">ADD TO CART</button>
+          </div>
+        </div>
+
+        <div class="playlist">
+          <div class="album-name">Tshirt2</div>
+          <div><img src="assets/Layer1.png" class="item-img" /></div>
+          <div class="shop-details">
+            <span class="cost-tag">$200.00</span>
+            <button type="button" class="add-button">ADD TO CART</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CART SECTION -->
+    <section class="section cart-section">
+      <h2 class="sec-header">CART</h2>
+      <div class="cart-container">
+        <div class="row row1">
+          <span class="cart-item cart-column">ITEM</span>
+          <span class="cart-price cart-column">PRICE</span>
+          <span class="cart-quantity cart-column">QUANTITY</span>
+        </div>
+        <!-- CART ITEMS START -->
+        <div class="cart-items"></div>
+        <!-- CART ITEMS END -->
+      </div>
+
+      <div class="total">
+        <span>TOTAL</span>
+        <span class="total-price">$0</span>
+      </div>
+
+      <div class="btn purchase-btn">
+        <button type="button" class="purchase-button">PURCHASE</button>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <h3 class="band-name band-name-small">ONE DIRECTION</h3>
+      <ul>
+        <li>
+          <box-icon
+            type="logo"
+            name="youtube"
+            color="aliceblue"
+            class="icon"
+          ></box-icon>
+        </li>
+        <li>
+          <box-icon
+            name="spotify"
+            type="logo"
+            color="aliceblue"
+            class="icon"
+          ></box-icon>
+        </li>
+        <li>
+          <box-icon
+            name="instagram-alt"
+            type="logo"
+            color="aliceblue"
+            class="icon"
+          ></box-icon>
+        </li>
+      </ul>
+    </footer>
+  </body>
+
+  <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</html>
